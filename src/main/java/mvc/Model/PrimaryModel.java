@@ -18,8 +18,8 @@ public class PrimaryModel implements IModel{
 
     public PrimaryModel(){
         this.support = new PropertyChangeSupport(this);
-        this.iSectionDAO = new SectionDAO("jdbc:postgresql://localhost/ue1396", "postgres", "Lambrecqjeremy3227");
-        this.iStatusDAO = new StatusDAO("jdbc:postgresql://localhost/ue1396", "postgres", "Lambrecqjeremy3227");
+        this.iSectionDAO = new SectionDAO("jdbc:postgresql://localhost/ue1396", "postgres", "MDP");
+        this.iStatusDAO = new StatusDAO("jdbc:postgresql://localhost/ue1396", "postgres", "MDP");
     }
 
     public void addPropertyChangeListener(PropertyChangeListener pcl) {
